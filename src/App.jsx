@@ -2,7 +2,6 @@ import Dashboard from "./components/Dashboard";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ProgressLine from "./components/Home/ProgressLine";
 import HomePage from "./components/Home/HomePage";
-import DotNavigation from "./components/Home/DotNavigation";
 import SupermarketDashboard from "./components/supermarket_dashboard/SupermarketDashboard";
 const router = createBrowserRouter([
   {
@@ -28,6 +27,7 @@ const router = createBrowserRouter([
     element: (
       <div>
         <ProgressLine />
+        <SupermarketDashboard/>
       </div>
     ),
   },
