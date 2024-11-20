@@ -10,7 +10,6 @@ const router = createBrowserRouter([
     element: (
       <div>
         <ProgressLine />
-        <DotNavigation />
         <HomePage />
       </div>
     ),
@@ -29,7 +28,6 @@ const router = createBrowserRouter([
     element: (
       <div>
         <ProgressLine />
-        <SupermarketDashboard/>
       </div>
     ),
   },
