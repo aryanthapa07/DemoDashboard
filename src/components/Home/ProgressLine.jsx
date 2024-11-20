@@ -17,7 +17,7 @@ const ProgressLine = () => {
         justifyContent: "space-between",
         width: "100%",
         maxWidth: "800px",
-        margin: "20px auto",
+        margin: "35px auto",
         position: "relative",
       }}
     >
@@ -25,9 +25,9 @@ const ProgressLine = () => {
       <div
         style={{
           position: "absolute",
-          top: "50%",
-          left: "5%",
-          width: "90%",
+          top: "24%",
+          left: "3%",
+          width: "95%",
           height: "2px",
           backgroundColor: "#ccc",
           zIndex: 1,
