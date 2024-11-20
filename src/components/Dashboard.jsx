@@ -8,7 +8,7 @@ import { tableData } from "../Data/tableData";
 // import { largeTableData } from "../Data/largeData";
 import TableComponent from "./TableComponent";
 import DataGridComponent from "./DataGridComponent";
-import "../components/AppStyles.css"
+import "../components/AppStyles.css";
 import { rows, columns } from "../Data/DataGridData";
 import NewTableComponent from "./NewTableComponent";
 import { generateLargeData } from "../Data/largeData";
@@ -21,7 +21,7 @@ const Dashboard = () => {
 
   const [state, setState] = useState(initialState);
 
-  const largeData = generateLargeData(10, 1000);
+  const largeData = generateLargeData(3, 1000);
 
   // Handle change for each dropdown
   const handleChange = (label, value) => {
@@ -68,6 +68,7 @@ const Dashboard = () => {
         <AbstractSlider interval={12} start={1} />
       </div>
       <div className="Green-line"></div>
+      <div className="Green-bg">Value in lacs</div>
       <div
         style={{
           display: "flex",
@@ -80,34 +81,21 @@ const Dashboard = () => {
         {largeData.map((table, index) => (
           <NewTableComponent key={index} data={table} title={table.category} />
         ))}
-        {/* <div className="container">
-          <div className="grid-wrapper">
-            <h1 className="grid-header">Secondary (in Lakhs)</h1>
-            <DataGridComponent
-              rows={rows}
-              columns={columns}
-              visibleRowCount={10}
-            />
-          </div>
-          <div className="grid-wrapper">
-            <h1 className="grid-header">LPR</h1>
-            <DataGridComponent
-              rows={rows}
-              columns={columns}
-              visibleRowCount={5}
-            />
-          </div>
-          <div className="grid-wrapper">
-            <h1 className="grid-header">Last Year Full Qtr</h1>
-            <DataGridComponent
-              rows={rows}
-              columns={columns}
-              visibleRowCount={8}
-            />
-          </div>
-        </div> */}
       </div>
-      {/* <div className="testColor">Test color</div> */}
+      <div className="Green-bg">Volume</div>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          gap: "20px",
+          padding: "20px",
+        }}
+      >
+        {largeData.map((table, index) => (
+          <NewTableComponent key={index} data={table} title={table.category} />
+        ))}
+      </div>
     </div>
   );
 };
