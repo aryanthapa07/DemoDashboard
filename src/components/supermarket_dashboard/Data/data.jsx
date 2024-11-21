@@ -81,7 +81,7 @@ export const columns = [
     { id: 39, supermarket: 'SuperCart', lyQtr: 26.7, prevQtr: 26.5, tyQtr: 27.0, goly: 1 },
     { id: 40, supermarket: 'Daily Fresh', lyQtr: 8.3, prevQtr: 8.1, tyQtr: 8.6, goly: 4 },
     // Entries 41-100000 follow the same pattern
-    ...Array.from({ length: 1000000 }, (_, i) => ({
+    ...Array.from({ length: 10000 }, (_, i) => ({
       id: 41 + i,
       supermarket: `Supermarket ${41 + i}`,
       lyQtr: (Math.random() * 50).toFixed(1),

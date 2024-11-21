@@ -1,4 +1,7 @@
   export const dataGridStyles = { 
+    '& .MuiDataGrid-scrollArea': {
+      backgroundColor: '#6a5183', // Violet color for the scroll area
+    },
     '& .MuiDataGrid-columnHeaders': {
       color: 'white',
       fontWeight: 'bold',
