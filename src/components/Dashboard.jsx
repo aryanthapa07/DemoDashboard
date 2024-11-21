@@ -68,7 +68,7 @@ const Dashboard = () => {
         <AbstractSlider interval={12} start={1} />
       </div>
       <div className="Green-line"></div>
-      <div className="Green-bg">Value in lacs</div>
+      <div className="Green-bg">VALUE IN LACS</div>
       <div
         style={{
           display: "flex",
@@ -82,7 +82,7 @@ const Dashboard = () => {
           <NewTableComponent key={index} data={table} title={table.category} />
         ))}
       </div>
-      <div className="Green-bg">Volume</div>
+      <div className="Green-bg">VOLUME</div>
       <div
         style={{
           display: "flex",

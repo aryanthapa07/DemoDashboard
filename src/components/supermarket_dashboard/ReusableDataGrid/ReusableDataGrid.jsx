@@ -13,7 +13,7 @@ const ReusableDataGrid = ({ rows, columns, visibleRowCount }) => {
     <div style={{ height: `${totalHeight}px`, width: '100%' }}>
       <DataGrid
         style={{
-          border: '2px solid #8dc63f',
+          border: '1px solid #8dc63f',
           borderRadius: '20px',
           backgroundColor: '#ffffff',
           overflow: 'hidden'
