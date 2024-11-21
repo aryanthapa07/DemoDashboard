@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 const ProgressLine = () => {
   const steps = [
     { name: "Home", path: "/" },
-    { name: "Dashboard", path: "/dashboard" },
-    { name: "Visible Insights", path: "/visible-insights" },
+    { name: "Distributor Dashboard", path: "/dashboard" },
+    { name: "Supermarket Dashboard", path: "/dashboard/supermarket" },
     { name: "Settings", path: "/settings" },
   ];
 
@@ -27,7 +27,7 @@ const ProgressLine = () => {
           position: "absolute",
           top: "24%",
           left: "3%",
-          width: "95%",
+          width: "94%",
           height: "2px",
           backgroundColor: "#ccc",
           zIndex: 1,
@@ -64,7 +64,7 @@ const ProgressLine = () => {
             style={{
               marginTop: "10px",
               color: "white",
-              fontSize: "14px",
+              fontSize: "18px",
               fontWeight: "bold",
             }}
           >

@@ -17,7 +17,7 @@ body {
   padding: 1rem;
   font-weight: bold;
   text-align: center;
-  font-size: large;
+  font-size: x-large;
 }
 .dashboard {
   max-width: 90vw;
@@ -48,6 +48,7 @@ body {
 
 .dropdown {
   display: flex;
+  gap: 8px;
   flex-direction: column;
   width: 200px;
 }
@@ -55,7 +56,6 @@ body {
 .dropdown-label {
   font-weight: bolder;
   color: #2C3335;
-  text-align: center;
 }
 
 .dropdown-select {

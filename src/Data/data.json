@@ -1,6 +1,6 @@
 [
     {
-        "title": "Division",
+        "title": "DIVISION",
         "label": "DistNm",
         "value": ""
     },
@@ -16,7 +16,7 @@
     },
     {
         "type": "selection",
-        "label": "Area",
+        "label": "AREA",
         "key": "Area",
         "functionality": "filter",
         "isMultiSelectWithCheckbox": true,
@@ -38,14 +38,14 @@
     },
     {
         "type": "selection",
-        "label": "Zone",
+        "label": "ZONE",
         "key": "Zone",
         "functionality": "filter",
         "isMultiSelectWithCheckbox": true,
         "isAddAll": true
     },
     {
-        "title": "Distributor",
+        "title": "DISTRIBUTOR",
         "label": "DistNm",
         "value": ""
     },
