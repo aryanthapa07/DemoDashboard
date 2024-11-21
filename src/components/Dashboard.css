@@ -55,6 +55,7 @@ body {
 .dropdown-label {
   font-weight: bolder;
   color: #2C3335;
+  text-align: center;
 }
 
 .dropdown-select {

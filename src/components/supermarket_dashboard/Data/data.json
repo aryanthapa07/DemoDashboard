@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Division",
+        "label": "DistNm",
+        "value": ""
+    },
+    {
+        "title": "LOB",
+        "label": "DistCode",
+        "value": ""
+    },
+    {
+        "title": "LINE",
+        "label": "SSMTypeName",
+        "value": ""
+    },
+    {
+        "type": "selection",
+        "label": "trendOffice",
+        "key": "Area",
+        "functionality": "filter",
+        "isMultiSelectWithCheckbox": true,
+        "isAddAll": true
+    },
+    {
+        "title": "Sales Office",
+        "label": "cal_PC_orddt",
+        "value": ""
+    },
+    {
+        "type": "selection",
+        "label": "LINE",
+        "key": "Region",
+        "functionality": "filter",
+        "kpi": "KPI1",
+        "isMultiSelectWithCheckbox": false,
+        "isAddAll": false
+    },
+    {
+        "type": "selection",
+        "label": "SalesEmployee",
+        "key": "Zone",
+        "functionality": "filter",
+        "isMultiSelectWithCheckbox": true,
+        "isAddAll": true
+    },
+    {
+        "title": "Distributor",
+        "label": "DistNm",
+        "value": ""
+    },
+    {
+        "type": "selection",
+        "label": "Piramal/Non-Piramal",
+        "key": "display_name",
+        "functionality": "filter",
+        "isMultiSelectWithCheckbox": true,
+        "isAddAll": true,
+        "data": [
+            {"label": "STR", "value": "STR"},
+            {"label": "WFC", "value": "WFC"},
+            {"label": "LED", "value": "LED"}
+        ]
+    }
+]

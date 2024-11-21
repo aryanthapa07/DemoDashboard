@@ -1,7 +1,7 @@
 // Dashboard.js
 import React, { useEffect, useState } from "react";
 import Dropdown from "../Dropdown";
-import data from "../../Data/data.json"
+import data from "./Data/data.json"
 import "../Dashboard.css";
 import AbstractSlider from "../AbstractSlider";
 import "./ReusableDataGrid/AppStyles.css";
